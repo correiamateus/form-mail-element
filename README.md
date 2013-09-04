@@ -1,4 +1,4 @@
-# &lt;my-element&gt;
+# &lt;form-mail&gt;
 
 TODO: Write a project description
 
