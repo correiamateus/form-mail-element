@@ -2,11 +2,11 @@
 
 TODO: Write a project description
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [Mateus Correia](https://github.com/correiamateus).
 
 ## Demo
 
-> [Check it live](http://customelements.github.io/boilerplate-element).
+> [Check it live](http://correiamateus.github.io/form-mail-element).
 
 ## Usage
 
@@ -19,13 +19,13 @@ TODO: Write a project description
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/my-element.html">
+	<link rel="import" href="src/form-mail.html">
 	```
 
 3. Start using it!
 
 	```html
-	<my-element></my-element>
+	<form-mail></form-mail>
 	```
 
 ## Options
@@ -47,6 +47,8 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
+* v0.1.0 September 4, 2013
+	* Initial development
 * v0.0.1 August 19, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
