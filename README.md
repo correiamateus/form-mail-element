@@ -32,10 +32,14 @@ TODO: Write a project description
 
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+`action`   | *string*                  | `""`                | Form action
+`method`   | `post`, `get` 	           | `post`              | Form send method
 
+
+## TO-DO
+
+* Create method that allow show/hide label and placeholder
+* Create method that allow custom label and placeholder text
 
 ## Contributing
 
