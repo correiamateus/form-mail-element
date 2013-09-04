@@ -1,6 +1,6 @@
 # &lt;form-mail&gt;
 
-TODO: Write a project description
+Web Component wrapper for a simple contact form using Polymer.
 
 > Maintained by [Mateus Correia](https://github.com/correiamateus).
 
@@ -36,7 +36,7 @@ Attribute  | Options                   | Default             | Description
 `method`   | `post`, `get` 	           | `post`              | Form send method
 
 
-## TO-DO
+## TODO
 
 * Create method that allow show/hide label and placeholder
 * Create method that allow custom label and placeholder text
