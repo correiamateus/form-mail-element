@@ -1,0 +1,36 @@
+<polymer-element name="form-mail" attributes="action method">
+
+	<template>
+		<div class="form-mail-element">
+			<form action="{{action}}" method="{{method}}">
+				<div>
+					<label for="form-name">Name:</label>
+					<input type="text" id="form-name" name="form[name]" placeholder="Fill your name here">
+				</div>
+				<div>
+					<label for="form-email">Email:</label>
+					<input type="email" id="form-email" name="form[email]" placeholder="Fill your email here">
+				</div>
+				<div>
+					<label for="form-message">Message:</label>
+					<textarea type="text" id="form-message" name="form[message]" placeholder="Fill your message here"></textarea>
+				</div>
+				<input type="submit" value="Send message">
+			</form>
+		</div>
+
+		<style>
+			label {
+				display: block;
+			}
+		</style>
+	</template>
+
+	<script>
+		Polymer('form-mail', {
+			action: '',
+			method: 'post'
+		});
+	</script>
+
+</polymer-element>
